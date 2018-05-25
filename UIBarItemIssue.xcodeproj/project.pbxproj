@@ -12,9 +12,11 @@
 		0ACE305120B859190075B5F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACE304F20B859190075B5F2 /* Main.storyboard */; };
 		0ACE305320B8591A0075B5F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACE305220B8591A0075B5F2 /* Assets.xcassets */; };
 		0ACE305620B8591A0075B5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACE305420B8591A0075B5F2 /* LaunchScreen.storyboard */; };
+		4D57AB82DE49D2BE79E4033F /* libPods-UIBarItemIssue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0895F8A3E578E619051A7541 /* libPods-UIBarItemIssue.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0895F8A3E578E619051A7541 /* libPods-UIBarItemIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIBarItemIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACE304820B859190075B5F2 /* UIBarItemIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBarItemIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACE304B20B859190075B5F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ACE304D20B859190075B5F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		0ACE305220B8591A0075B5F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACE305520B8591A0075B5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ACE305720B8591A0075B5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB3D05F823723FC1C8E2D53 /* Pods-UIBarItemIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBarItemIssue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIBarItemIssue/Pods-UIBarItemIssue.debug.xcconfig"; sourceTree = "<group>"; };
+		4D729B635A2004D591ED83BF /* Pods-UIBarItemIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBarItemIssue.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIBarItemIssue/Pods-UIBarItemIssue.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D57AB82DE49D2BE79E4033F /* libPods-UIBarItemIssue.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0ACE304A20B859190075B5F2 /* UIBarItemIssue */,
 				0ACE304920B859190075B5F2 /* Products */,
+				68E6A393F71F8C8A4BDC2E71 /* Pods */,
+				43FA5D07A27B0CB2BC80D430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = UIBarItemIssue;
 			sourceTree = "<group>";
 		};
+		43FA5D07A27B0CB2BC80D430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0895F8A3E578E619051A7541 /* libPods-UIBarItemIssue.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68E6A393F71F8C8A4BDC2E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3D05F823723FC1C8E2D53 /* Pods-UIBarItemIssue.debug.xcconfig */,
+				4D729B635A2004D591ED83BF /* Pods-UIBarItemIssue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ACE305A20B8591A0075B5F2 /* Build configuration list for PBXNativeTarget "UIBarItemIssue" */;
 			buildPhases = (
+				F32601E2E04757940256AC99 /* [CP] Check Pods Manifest.lock */,
 				0ACE304420B859190075B5F2 /* Sources */,
 				0ACE304520B859190075B5F2 /* Frameworks */,
 				0ACE304620B859190075B5F2 /* Resources */,
@@ -129,6 +154,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F32601E2E04757940256AC99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIBarItemIssue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ACE304420B859190075B5F2 /* Sources */ = {
@@ -278,15 +324,13 @@
 		};
 		0ACE305B20B8591A0075B5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB3D05F823723FC1C8E2D53 /* Pods-UIBarItemIssue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5CM3FMQR;
 				INFOPLIST_FILE = UIBarItemIssue/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.UIBarItemIssue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +340,13 @@
 		};
 		0ACE305C20B8591A0075B5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D729B635A2004D591ED83BF /* Pods-UIBarItemIssue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PX5CM3FMQR;
 				INFOPLIST_FILE = UIBarItemIssue/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.kevincramer.UIBarItemIssue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

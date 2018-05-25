@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import SwiftTheme
 
 class ViewController: UIViewController {
+    @IBOutlet weak var testButton: UIBarButtonItem!
+    @IBOutlet weak var test2Button: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let monoFontDict = [
+            NSAttributedStringKey.font:
+                UIFont.monospacedDigitSystemFont(ofSize: 12.0, weight: .heavy)
+        ]
+        let lightFontDict = [
+            NSAttributedStringKey.font:
+                UIFont.systemFont(ofSize: 12.0, weight: .light)
+        ]
+        let picker = ThemeDictionaryPicker.pickerWithAttributes(
+            [monoFontDict, lightFontDict])
+        testButton.theme_setTitleTextAttributes(picker, forState: .normal)
+        test2Button.theme_setTitleTextAttributes(picker, forState: .normal)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func changeTheme(_ sender: Any) {
+        let current = ThemeManager.currentThemeIndex
+        ThemeManager.setTheme(index: current == 0 ? 1 : 0)
     }
-
-
 }
 

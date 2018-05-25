@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F87C34E5A648C3C54799F61667DFD93 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA4100C64327002D6647B77C24B235 /* ThemePicker.swift */; };
+		12F50C6DB3A5B149D1ED1149E10501DD /* Pods-UIBarItemIssue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A049E5C46E1A366DD86CDD0337A22360 /* Pods-UIBarItemIssue-dummy.m */; };
+		1A136B4C022D27007A4C71C5929D0995 /* ThemeManager+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D1B4E77D9A863F44EB735A4604860 /* ThemeManager+Index.swift */; };
+		30E82A450738DF9810F22F00317BEA3A /* ThemeDictionaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0821CD671758AD465CD83481773C0EE3 /* ThemeDictionaryPicker.swift */; };
+		313D7B29D06727EC71990101A69CD165 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9372CB0D9406E12EFD71D3B73F28A163 /* ThemeActivityIndicatorViewStylePicker.swift */; };
+		356F7296DF029322A1AF628E769F5153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F801ACD4D3231675299061AC3033791 /* UITextField+PlaceholderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C850DABC1801D558FA016518C086D18 /* UITextField+PlaceholderAttributes.swift */; };
+		45FEC05E8E41141E5F1706EC72B583D0 /* ThemeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D56DCBF2D7F4EFFEC8C0D57506952D /* ThemeStatePicker.swift */; };
+		514EE20F46CDC137CB0EC29F9F59E561 /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9502C12897DBDAF24760D3448E56E2F /* ThemeImagePicker.swift */; };
+		52C8BE257AABDC13C7488ED333592EAD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A307D90F2DB8ECB5B80151EB637E80 /* UIColorExtension.swift */; };
+		5494CBFCD697C55E25B1B93B5C499FB3 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D0E59BE4BD3AABE2AE78CCC789887 /* ThemeManager.swift */; };
+		5DA0E401BA8CFB689455C44C478D8F17 /* ThemeColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE79495CF4A1E0A5DCD61A08436FA7CC /* ThemeColorPicker.swift */; };
+		67A1D8C555EE64376FBE9CE05333178F /* UIRefreshControl+TitleAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031880D687E5705A6D8CE20B9B9D67A /* UIRefreshControl+TitleAttributes.swift */; };
+		6A9676601120F1F81410CC1AB390001D /* Pods-UIBarItemIssue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6CAD7F27A88C0A326896D23D7CD72C /* Pods-UIBarItemIssue-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		865FBDF7385EC8B401B4B2EBCC9B949C /* SwiftTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FE1AE05C7A1EA2996161BA695B65C5 /* SwiftTheme-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89F1C379D0ED367019B2F34038E7B91C /* ThemeStatusBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE583101476184CBE796E7BDF8B9DD /* ThemeStatusBarStylePicker.swift */; };
+		8C1E944F99C64EC6CCF4FF50F73FDC6F /* ThemeCGColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B6DA7EF3D79D6F11679277CC11C5C /* ThemeCGColorPicker.swift */; };
+		A1559A991A40CBE1D310F7B781DFE2B4 /* ThemeManager+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8EF1E3B9DC330497C91C71D7A2C3C3 /* ThemeManager+Plist.swift */; };
+		A43989472BAD19026BC7F6851277A167 /* SwiftTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD29B2D6A5E1A95B2AC07787E81709A /* SwiftTheme-dummy.m */; };
+		ACB586266A926B9F890AC554DAB6BF95 /* ThemeBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891AB19D014295F91EB338B1A283B663 /* ThemeBarStylePicker.swift */; };
+		AEB4623C14B3F1FAA8B4D00FE1F8F3CB /* NSObject+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646480A15DC6440D95DE920E30CFB3B1 /* NSObject+Theme.swift */; };
+		B4C7D7427792051A9A32F6C3B2470642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CCD5E624B2FA62E4777AAE35F04B40D4 /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B29380337B319A314B6CDD79C59663 /* ThemeKeyboardAppearancePicker.swift */; };
+		E038055B5EF18D177AB41FB3B3B559CA /* UIKit+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022E7DE47DE7B67335A5A316A8ABE85 /* UIKit+Theme.swift */; };
+		E7427A516D9A18A7B7A2342F73905BD1 /* ThemeFontPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E58E2F22861D1B712E7B1E0AD402F6A /* ThemeFontPicker.swift */; };
+		EE9065196037CE7D629A9C10BDF75786 /* ThemeCGFloatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C54772D65EA8260B9BC68A4597C4DF /* ThemeCGFloatPicker.swift */; };
+		EEB86546BDBD5B74861D6E385C1565B8 /* ThemeManager+OC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EBA5C005C7C920AC4D011405E2585 /* ThemeManager+OC.swift */; };
+		F47DAB6D2869E15A89030F551E4EB8C6 /* NSAttributedString+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529BA16272B85F21672D00CCAAF52E6 /* NSAttributedString+Merge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0281B01E769236CC3143C51DCA4BC698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829752D9A0449D91FE6A0CAF96D46535;
+			remoteInfo = SwiftTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B6DA7EF3D79D6F11679277CC11C5C /* ThemeCGColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCGColorPicker.swift; path = Source/ThemeCGColorPicker.swift; sourceTree = "<group>"; };
+		00B4F46C9AF659AD46D127DBFC4B0FF0 /* SwiftTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTheme-prefix.pch"; sourceTree = "<group>"; };
+		0821CD671758AD465CD83481773C0EE3 /* ThemeDictionaryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeDictionaryPicker.swift; path = Source/ThemeDictionaryPicker.swift; sourceTree = "<group>"; };
+		0B6CAD7F27A88C0A326896D23D7CD72C /* Pods-UIBarItemIssue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIBarItemIssue-umbrella.h"; sourceTree = "<group>"; };
+		0C850DABC1801D558FA016518C086D18 /* UITextField+PlaceholderAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+PlaceholderAttributes.swift"; path = "Source/UITextField+PlaceholderAttributes.swift"; sourceTree = "<group>"; };
+		15BF4D397EA228B14C7032DDD0DCFA93 /* libPods-UIBarItemIssue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UIBarItemIssue.a"; path = "libPods-UIBarItemIssue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2031880D687E5705A6D8CE20B9B9D67A /* UIRefreshControl+TitleAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+TitleAttributes.swift"; path = "Source/UIRefreshControl+TitleAttributes.swift"; sourceTree = "<group>"; };
+		21A47B669673BD314EC17C1AB46ABFA5 /* Pods-UIBarItemIssue-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIBarItemIssue-resources.sh"; sourceTree = "<group>"; };
+		22A307D90F2DB8ECB5B80151EB637E80 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		2B0EBA5C005C7C920AC4D011405E2585 /* ThemeManager+OC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+OC.swift"; path = "Source/ThemeManager+OC.swift"; sourceTree = "<group>"; };
+		2F5F74A9201F9096FCA7B7491D0A101A /* SwiftTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SwiftTheme.modulemap; path = ../../Headers/Public/SwiftTheme/SwiftTheme.modulemap; sourceTree = "<group>"; };
+		37B29380337B319A314B6CDD79C59663 /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeKeyboardAppearancePicker.swift; path = Source/ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
+		4268AC36A1E513234674B413EDBDFC82 /* Pods-UIBarItemIssue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBarItemIssue.debug.xcconfig"; sourceTree = "<group>"; };
+		557D2FF80E3F0FE5430A76FB41472C6C /* Pods-UIBarItemIssue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIBarItemIssue-frameworks.sh"; sourceTree = "<group>"; };
+		646480A15DC6440D95DE920E30CFB3B1 /* NSObject+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Theme.swift"; path = "Source/NSObject+Theme.swift"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78E4510DF4AF3711AA6712FFBF048BA7 /* Pods-UIBarItemIssue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBarItemIssue.release.xcconfig"; sourceTree = "<group>"; };
+		891AB19D014295F91EB338B1A283B663 /* ThemeBarStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeBarStylePicker.swift; path = Source/ThemeBarStylePicker.swift; sourceTree = "<group>"; };
+		9372CB0D9406E12EFD71D3B73F28A163 /* ThemeActivityIndicatorViewStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeActivityIndicatorViewStylePicker.swift; path = Source/ThemeActivityIndicatorViewStylePicker.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9955FD58D55F331FD3508E367471B1E4 /* Pods-UIBarItemIssue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIBarItemIssue-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E58E2F22861D1B712E7B1E0AD402F6A /* ThemeFontPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeFontPicker.swift; path = Source/ThemeFontPicker.swift; sourceTree = "<group>"; };
+		A049E5C46E1A366DD86CDD0337A22360 /* Pods-UIBarItemIssue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIBarItemIssue-dummy.m"; sourceTree = "<group>"; };
+		A3D837582FF46C4328AE828944DCC8FF /* Pods-UIBarItemIssue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIBarItemIssue.modulemap"; sourceTree = "<group>"; };
+		A5FA4100C64327002D6647B77C24B235 /* ThemePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemePicker.swift; path = Source/ThemePicker.swift; sourceTree = "<group>"; };
+		A9855E1CD07EE1D07AFB84CC07ACB6ED /* SwiftTheme.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTheme.xcconfig; sourceTree = "<group>"; };
+		ACEE583101476184CBE796E7BDF8B9DD /* ThemeStatusBarStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStatusBarStylePicker.swift; path = Source/ThemeStatusBarStylePicker.swift; sourceTree = "<group>"; };
+		AE79495CF4A1E0A5DCD61A08436FA7CC /* ThemeColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeColorPicker.swift; path = Source/ThemeColorPicker.swift; sourceTree = "<group>"; };
+		B7D56DCBF2D7F4EFFEC8C0D57506952D /* ThemeStatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStatePicker.swift; path = Source/ThemeStatePicker.swift; sourceTree = "<group>"; };
+		B94D0E59BE4BD3AABE2AE78CCC789887 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Source/ThemeManager.swift; sourceTree = "<group>"; };
+		B9502C12897DBDAF24760D3448E56E2F /* ThemeImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeImagePicker.swift; path = Source/ThemeImagePicker.swift; sourceTree = "<group>"; };
+		BA8EF1E3B9DC330497C91C71D7A2C3C3 /* ThemeManager+Plist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+Plist.swift"; path = "Source/ThemeManager+Plist.swift"; sourceTree = "<group>"; };
+		C529BA16272B85F21672D00CCAAF52E6 /* NSAttributedString+Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Merge.swift"; path = "Source/NSAttributedString+Merge.swift"; sourceTree = "<group>"; };
+		C8C54772D65EA8260B9BC68A4597C4DF /* ThemeCGFloatPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCGFloatPicker.swift; path = Source/ThemeCGFloatPicker.swift; sourceTree = "<group>"; };
+		D03D1B4E77D9A863F44EB735A4604860 /* ThemeManager+Index.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+Index.swift"; path = "Source/ThemeManager+Index.swift"; sourceTree = "<group>"; };
+		D4F0C81FEB75F7DBFC69876F21809257 /* libSwiftTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftTheme.a; path = libSwiftTheme.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD29B2D6A5E1A95B2AC07787E81709A /* SwiftTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTheme-dummy.m"; sourceTree = "<group>"; };
+		E022E7DE47DE7B67335A5A316A8ABE85 /* UIKit+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Theme.swift"; path = "Source/UIKit+Theme.swift"; sourceTree = "<group>"; };
+		F7A00D5675245E066F158041DCC1B060 /* Pods-UIBarItemIssue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIBarItemIssue-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7FE1AE05C7A1EA2996161BA695B65C5 /* SwiftTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftTheme-umbrella.h"; path = "../../Headers/Public/SwiftTheme/SwiftTheme-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580B20D5E50CFFE49CBBEB45B802A951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C7D7427792051A9A32F6C3B2470642 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7758890AADD32BBE9D3DED9D044C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356F7296DF029322A1AF628E769F5153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34216A7E5DD2FC37BE5C7D1F0AEB1B1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F5F74A9201F9096FCA7B7491D0A101A /* SwiftTheme.modulemap */,
+				A9855E1CD07EE1D07AFB84CC07ACB6ED /* SwiftTheme.xcconfig */,
+				DAD29B2D6A5E1A95B2AC07787E81709A /* SwiftTheme-dummy.m */,
+				00B4F46C9AF659AD46D127DBFC4B0FF0 /* SwiftTheme-prefix.pch */,
+				F7FE1AE05C7A1EA2996161BA695B65C5 /* SwiftTheme-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftTheme";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9736A38EE00BFD01F74E6A62A05F2519 /* Pods */,
+				C22BFC87BD25528384BCA5AC9CA853D3 /* Products */,
+				CDA3BF9D40FECCB2D0BECCD478317BF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9736A38EE00BFD01F74E6A62A05F2519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B878CD7B5ED4B707968E497178A9C597 /* SwiftTheme */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B878CD7B5ED4B707968E497178A9C597 /* SwiftTheme */ = {
+			isa = PBXGroup;
+			children = (
+				C529BA16272B85F21672D00CCAAF52E6 /* NSAttributedString+Merge.swift */,
+				646480A15DC6440D95DE920E30CFB3B1 /* NSObject+Theme.swift */,
+				9372CB0D9406E12EFD71D3B73F28A163 /* ThemeActivityIndicatorViewStylePicker.swift */,
+				891AB19D014295F91EB338B1A283B663 /* ThemeBarStylePicker.swift */,
+				002B6DA7EF3D79D6F11679277CC11C5C /* ThemeCGColorPicker.swift */,
+				C8C54772D65EA8260B9BC68A4597C4DF /* ThemeCGFloatPicker.swift */,
+				AE79495CF4A1E0A5DCD61A08436FA7CC /* ThemeColorPicker.swift */,
+				0821CD671758AD465CD83481773C0EE3 /* ThemeDictionaryPicker.swift */,
+				9E58E2F22861D1B712E7B1E0AD402F6A /* ThemeFontPicker.swift */,
+				B9502C12897DBDAF24760D3448E56E2F /* ThemeImagePicker.swift */,
+				37B29380337B319A314B6CDD79C59663 /* ThemeKeyboardAppearancePicker.swift */,
+				B94D0E59BE4BD3AABE2AE78CCC789887 /* ThemeManager.swift */,
+				D03D1B4E77D9A863F44EB735A4604860 /* ThemeManager+Index.swift */,
+				2B0EBA5C005C7C920AC4D011405E2585 /* ThemeManager+OC.swift */,
+				BA8EF1E3B9DC330497C91C71D7A2C3C3 /* ThemeManager+Plist.swift */,
+				A5FA4100C64327002D6647B77C24B235 /* ThemePicker.swift */,
+				B7D56DCBF2D7F4EFFEC8C0D57506952D /* ThemeStatePicker.swift */,
+				ACEE583101476184CBE796E7BDF8B9DD /* ThemeStatusBarStylePicker.swift */,
+				22A307D90F2DB8ECB5B80151EB637E80 /* UIColorExtension.swift */,
+				E022E7DE47DE7B67335A5A316A8ABE85 /* UIKit+Theme.swift */,
+				2031880D687E5705A6D8CE20B9B9D67A /* UIRefreshControl+TitleAttributes.swift */,
+				0C850DABC1801D558FA016518C086D18 /* UITextField+PlaceholderAttributes.swift */,
+				34216A7E5DD2FC37BE5C7D1F0AEB1B1A /* Support Files */,
+			);
+			name = SwiftTheme;
+			path = SwiftTheme;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C22BFC87BD25528384BCA5AC9CA853D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BF4D397EA228B14C7032DDD0DCFA93 /* libPods-UIBarItemIssue.a */,
+				D4F0C81FEB75F7DBFC69876F21809257 /* libSwiftTheme.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA3BF9D40FECCB2D0BECCD478317BF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6FAB39C66F87EDF6B8FBBC8689783 /* Pods-UIBarItemIssue */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5C6FAB39C66F87EDF6B8FBBC8689783 /* Pods-UIBarItemIssue */ = {
+			isa = PBXGroup;
+			children = (
+				A3D837582FF46C4328AE828944DCC8FF /* Pods-UIBarItemIssue.modulemap */,
+				9955FD58D55F331FD3508E367471B1E4 /* Pods-UIBarItemIssue-acknowledgements.markdown */,
+				F7A00D5675245E066F158041DCC1B060 /* Pods-UIBarItemIssue-acknowledgements.plist */,
+				A049E5C46E1A366DD86CDD0337A22360 /* Pods-UIBarItemIssue-dummy.m */,
+				557D2FF80E3F0FE5430A76FB41472C6C /* Pods-UIBarItemIssue-frameworks.sh */,
+				21A47B669673BD314EC17C1AB46ABFA5 /* Pods-UIBarItemIssue-resources.sh */,
+				0B6CAD7F27A88C0A326896D23D7CD72C /* Pods-UIBarItemIssue-umbrella.h */,
+				4268AC36A1E513234674B413EDBDFC82 /* Pods-UIBarItemIssue.debug.xcconfig */,
+				78E4510DF4AF3711AA6712FFBF048BA7 /* Pods-UIBarItemIssue.release.xcconfig */,
+			);
+			name = "Pods-UIBarItemIssue";
+			path = "Target Support Files/Pods-UIBarItemIssue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79F4773BB4B43EE474920403E49DEB98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FBDF7385EC8B401B4B2EBCC9B949C /* SwiftTheme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4E7C0C964760C5BE14B01C3A9B9D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9676601120F1F81410CC1AB390001D /* Pods-UIBarItemIssue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		829752D9A0449D91FE6A0CAF96D46535 /* SwiftTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA32620E29FF66450BB4A83D590273D9 /* Build configuration list for PBXNativeTarget "SwiftTheme" */;
+			buildPhases = (
+				44E3246DA5B24D7027F171D203515246 /* Sources */,
+				580B20D5E50CFFE49CBBEB45B802A951 /* Frameworks */,
+				79F4773BB4B43EE474920403E49DEB98 /* Headers */,
+				0F265500D0C437E6240B26ACF913161C /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTheme;
+			productName = SwiftTheme;
+			productReference = D4F0C81FEB75F7DBFC69876F21809257 /* libSwiftTheme.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DDA58AC080DC80CB5A4389090487B6F /* Pods-UIBarItemIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CE534C7D0F0087EE590A2C7A448021 /* Build configuration list for PBXNativeTarget "Pods-UIBarItemIssue" */;
+			buildPhases = (
+				2185B9837F6430E4BF7D2ED24E37C414 /* Sources */,
+				BF7758890AADD32BBE9D3DED9D044C66 /* Frameworks */,
+				DA4E7C0C964760C5BE14B01C3A9B9D3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1CC04264220E321390AB5A352ED77D /* PBXTargetDependency */,
+			);
+			name = "Pods-UIBarItemIssue";
+			productName = "Pods-UIBarItemIssue";
+			productReference = 15BF4D397EA228B14C7032DDD0DCFA93 /* libPods-UIBarItemIssue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C22BFC87BD25528384BCA5AC9CA853D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DDA58AC080DC80CB5A4389090487B6F /* Pods-UIBarItemIssue */,
+				829752D9A0449D91FE6A0CAF96D46535 /* SwiftTheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F265500D0C437E6240B26ACF913161C /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftTheme/SwiftTheme.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftTheme/SwiftTheme-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftTheme/SwiftTheme.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftTheme/SwiftTheme-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2185B9837F6430E4BF7D2ED24E37C414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F50C6DB3A5B149D1ED1149E10501DD /* Pods-UIBarItemIssue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E3246DA5B24D7027F171D203515246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DAB6D2869E15A89030F551E4EB8C6 /* NSAttributedString+Merge.swift in Sources */,
+				AEB4623C14B3F1FAA8B4D00FE1F8F3CB /* NSObject+Theme.swift in Sources */,
+				A43989472BAD19026BC7F6851277A167 /* SwiftTheme-dummy.m in Sources */,
+				313D7B29D06727EC71990101A69CD165 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */,
+				ACB586266A926B9F890AC554DAB6BF95 /* ThemeBarStylePicker.swift in Sources */,
+				8C1E944F99C64EC6CCF4FF50F73FDC6F /* ThemeCGColorPicker.swift in Sources */,
+				EE9065196037CE7D629A9C10BDF75786 /* ThemeCGFloatPicker.swift in Sources */,
+				5DA0E401BA8CFB689455C44C478D8F17 /* ThemeColorPicker.swift in Sources */,
+				30E82A450738DF9810F22F00317BEA3A /* ThemeDictionaryPicker.swift in Sources */,
+				E7427A516D9A18A7B7A2342F73905BD1 /* ThemeFontPicker.swift in Sources */,
+				514EE20F46CDC137CB0EC29F9F59E561 /* ThemeImagePicker.swift in Sources */,
+				CCD5E624B2FA62E4777AAE35F04B40D4 /* ThemeKeyboardAppearancePicker.swift in Sources */,
+				1A136B4C022D27007A4C71C5929D0995 /* ThemeManager+Index.swift in Sources */,
+				EEB86546BDBD5B74861D6E385C1565B8 /* ThemeManager+OC.swift in Sources */,
+				A1559A991A40CBE1D310F7B781DFE2B4 /* ThemeManager+Plist.swift in Sources */,
+				5494CBFCD697C55E25B1B93B5C499FB3 /* ThemeManager.swift in Sources */,
+				0F87C34E5A648C3C54799F61667DFD93 /* ThemePicker.swift in Sources */,
+				45FEC05E8E41141E5F1706EC72B583D0 /* ThemeStatePicker.swift in Sources */,
+				89F1C379D0ED367019B2F34038E7B91C /* ThemeStatusBarStylePicker.swift in Sources */,
+				52C8BE257AABDC13C7488ED333592EAD /* UIColorExtension.swift in Sources */,
+				E038055B5EF18D177AB41FB3B3B559CA /* UIKit+Theme.swift in Sources */,
+				67A1D8C555EE64376FBE9CE05333178F /* UIRefreshControl+TitleAttributes.swift in Sources */,
+				3F801ACD4D3231675299061AC3033791 /* UITextField+PlaceholderAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1CC04264220E321390AB5A352ED77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTheme;
+			target = 829752D9A0449D91FE6A0CAF96D46535 /* SwiftTheme */;
+			targetProxy = 0281B01E769236CC3143C51DCA4BC698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DA329893EB0E202E96A5BC093E907EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9855E1CD07EE1D07AFB84CC07ACB6ED /* SwiftTheme.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTheme/SwiftTheme-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftTheme/SwiftTheme.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftTheme;
+				PRODUCT_NAME = SwiftTheme;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6DB2C40BA7E83C3478A6205990C8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4268AC36A1E513234674B413EDBDFC82 /* Pods-UIBarItemIssue.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIBarItemIssue/Pods-UIBarItemIssue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0CDA0631CBBD783DBF55F836D3575A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9855E1CD07EE1D07AFB84CC07ACB6ED /* SwiftTheme.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTheme/SwiftTheme-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftTheme/SwiftTheme.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftTheme;
+				PRODUCT_NAME = SwiftTheme;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A120C9BAE7466269A23F130C07B4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E4510DF4AF3711AA6712FFBF048BA7 /* Pods-UIBarItemIssue.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIBarItemIssue/Pods-UIBarItemIssue.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CE534C7D0F0087EE590A2C7A448021 /* Build configuration list for PBXNativeTarget "Pods-UIBarItemIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6DB2C40BA7E83C3478A6205990C8D7 /* Debug */,
+				F7A120C9BAE7466269A23F130C07B4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA32620E29FF66450BB4A83D590273D9 /* Build configuration list for PBXNativeTarget "SwiftTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CDA0631CBBD783DBF55F836D3575A7 /* Debug */,
+				0DA329893EB0E202E96A5BC093E907EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

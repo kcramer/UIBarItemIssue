@@ -1,0 +1,6 @@
+module Pods_UIBarItemIssue [system] {
+  umbrella header "Pods-UIBarItemIssue-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,21 @@
+PODS:
+  - SwiftTheme (0.4.1)
+
+DEPENDENCIES:
+  - SwiftTheme (from `https://github.com/jiecao-fm/SwiftTheme.git`)
+
+EXTERNAL SOURCES:
+  SwiftTheme:
+    :git: https://github.com/jiecao-fm/SwiftTheme.git
+
+CHECKOUT OPTIONS:
+  SwiftTheme:
+    :commit: b28977a37b57a3ffc29314ff1cda12c68f190708
+    :git: https://github.com/jiecao-fm/SwiftTheme.git
+
+SPEC CHECKSUMS:
+  SwiftTheme: 57f15fff0ced517776a14b51350acd5a605f1a60
+
+PODFILE CHECKSUM: 274fb64e956a690191a442a88bab7c615d90ac95
+
+COCOAPODS: 1.5.0
